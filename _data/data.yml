@@ -3,151 +3,132 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Tom Hobbs
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Tom Hobbs
+  tagline: Full Stack Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: TomHobbs@Outlook.com
-    linkedin: tommyhobbs
-    github: tommyhobbs
+  # Sidebar links
+  email: TomHobbs@Outlook.com
+  linkedin: tommyhobbs
+  github: tommyhobbs
 
-    languages:
-      - idiom: English
-        level: Native
+  interests:
+    - item: Running with my club - Clapham Pioneers
+      link:
 
-    interests:
-      - item: Running with my club - Clapham Pioneers
-        link:
+    - item: Hiking
+      link:
 
-      - item: Hiking
-        link:
-
-      - item: Music Festivals
-        link:
+    - item: Music Festivals
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      A keen and enthusiastic full stack developer with DevOps and
-      infrastructure roots. Developed a broad foundation of enterprise applications
-      and architecture during an expansive time at IBM.
+  title: Career Profile
+  summary: |
+    A keen and enthusiastic full stack developer with DevOps and
+    infrastructure roots. Developed a broad foundation of enterprise applications
+    and architecture during an expansive time at IBM.
 
 education:
-    - degree: BSc in Music & Audio Technology
-      university: Bournemouth University
-      time: 2010 - 2014
-      details: |
-        Developed an Award winning native Android application which allowed you
-        to stream your friends Facebook music likes via YouTube.
+  - degree: BSc in Music & Audio Technology
+    university: Bournemouth University
+    time: 2010 - 2014
+    details: |
+      Developed an Award winning native Android application which allowed you
+      to stream your friends Facebook music likes via YouTube.
 
 experiences:
-    - role: Senior Full Stack Developer
-      time: 2018 - 2019
-      company: Digital Detox, London
+  - role: Senior Full Stack Developer
+    time: 2018 - 2019
+    company: Digital Detox, London
 
-    - role: Interactive Developer
-      time: 2015 - 2018
-      company: IBM iX, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+  - role: Interactive Developer
+    time: 2015 - 2018
+    company: IBM iX, London
 
-    - role: Application Architect / Junior Consultant
-      time: 2012 - 2015
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        
-    - role: Software Engineer
-      time: 2012 - 2013
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+  - role: Application Architect / Junior Consultant
+    time: 2012 - 2015
+    company: Amazon, London
+
+  - role: Software Engineer
+    time: 2012 - 2013
+    company: Amazon, London
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: Projects
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  assignments:
+    - title: Full-stack Developer for Virgin Money Jul 2018 – Sep 2018
+      tagline: 'Part of the team that developed and launched the Virgin Money Credit Card App. Worked on the front-end hybrid elements written in AgularJS and integrating with a Backbase and IBM Cloud back-end. Noticed a gap in resources and helped with the complex Kubernetes and Jenkins implementation.'
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: Full-stack Developer for First Direct Apr 2018 – Jun 2018
+      tagline: 'Delivered a prototyping project for First Direct where we complimented UX designs with proof of concept prototype applications. Created and deployed iXccelerator Lite which is a reusable infrastructure as code asset. Technologies used include; React, Redux, Node, Docker, Ansible, Jest, WebSockets, Sagas, Travis.'
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Web Developer for Government Jan 2018 – Feb 2018
+      tagline: 'Joined a team to complete Phase 1 of development of a web based query/results tool. Written in Angular 5 with the use of the Angular CLI, unit tests were executed with Karma and end-to end tests were run via Protractor. I also implemented server-side PDF rendering via the PDFMake library.'
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Web Developer for Home Office May 2017 – Dec 2017
+      tagline: 'Worked on a long term government project utilising React and Redux.'
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Web Developer for AirBP Apr 2017 – May 2017
+      tagline: 'Worked as a Front End Web Developer for a large fuel supplier. Developed an MVP using the AngularJS framework as part of an Agile scrum team.'
+
+    - title: Cloud Developer for Cemex Nov 2016 – Mar 2017
+      tagline: 'Created an entire cloud infrastructure from code using Ansible and AWS. Presented a technical demonstration to the CEO of Cemex Ventures. Used Ansible to create Gitlab, Gitlab runners, Artifactory, Free IPA, a Kubernetes pod and Jira.'
 
 publications:
-    title: Patents
-    intro: |
-      During my year at IBM software labs I spawned a patent group and recieved a publication and a patent.
+  title: Patents
+  intro: |
+    During my year at IBM software labs I spawned a patent group and recieved a publication and a patent.
 
-    papers:
-      - title: Radial Time Segemntation User Interface
-        authors: Tom Hobbs, Sam Smith, Mark H.
-        conference: IBM, 2012
+  papers:
+    - title: Radial Time Segemntation User Interface
+      authors: Tom Hobbs, Sam Smith, Mark H.
+      conference: IBM, 2012
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Javascript
-        level: 98%
+  toolset:
+    - name: Javascript
+      level: 98%
 
-      - name: ReactJS
-        level: 98%
+    - name: ReactJS
+      level: 98%
 
-      - name: Redux
-        level: 98%
+    - name: Redux
+      level: 98%
 
-      - name: Angular
-        level: 85%
+    - name: Angular
+      level: 85%
 
-      - name: AngularJS
-        level: 85%
-        
-      - name: HTML5 & CSS
-        level: 85%
-        
-      - name: Jenkins & Travis
-        level: 85%  
-      
-      - name: React Native
-        level: 75%
-      
-      - name: Amazon Web Services
-        level: 75%
-        
-      - name: Jest
-        level: 75%
-        
-      - name: Node
-        level: 75%
-        
-      - name: Git
-        level: 75%
+    - name: AngularJS
+      level: 85%
+
+    - name: HTML5 & CSS
+      level: 85%
+
+    - name: Jenkins & Travis
+      level: 85%
+
+    - name: React Native
+      level: 75%
+
+    - name: Amazon Web Services
+      level: 75%
+
+    - name: Jest
+      level: 75%
+
+    - name: Node
+      level: 75%
+
+    - name: Git
+      level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
