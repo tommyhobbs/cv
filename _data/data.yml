@@ -18,13 +18,12 @@ sidebar:
 
   interests:
     - item: Running with my club - Clapham Pioneers
-      link:
 
     - item: Hiking
-      link:
 
-    - item: Music Festivals
-      link:
+    - item: Music
+
+    - item: Film
 
 career-profile:
   title: Career Profile
@@ -34,14 +33,25 @@ career-profile:
     and architecture during an expansive time at IBM.
 
 education:
-  - degree: BSc in Music & Audio Technology
+  - degree: BSc in Music & Audio Technology (First Class Honours)
     university: Bournemouth University
     time: 2010 - 2014
     details: |
       Developed an Award winning native Android application which allowed you
       to stream your friends Facebook music likes via YouTube.
 
+  - degree: Advance Javascript Workshop at CodeNode
+    
+  - degree: IBM DevOps Technical Workshop
+
+  - degree: BSC Foundation Certificate in Agile
+
+  - degree: Certied ScrumMaster
+
+  - degree: SAFe 4 Certified Practitioner
+
 experiences:
+  title: Roles
   - role: Senior Full Stack Developer
     time: 2018 - 2019
     company: Digital Detox, London
@@ -51,12 +61,12 @@ experiences:
     company: IBM iX, London
 
   - role: Application Architect / Junior Consultant
-    time: 2012 - 2015
-    company: Amazon, London
+    time: 2014 - 2015
+    company: IBM, London
 
-  - role: Software Engineer
+  - role: Software Engineer (Placement Year)
     time: 2012 - 2013
-    company: Amazon, London
+    company: IBM, Hursley
 
 projects:
   title: Projects
@@ -86,8 +96,8 @@ publications:
     During my year at IBM software labs I spawned a patent group and recieved a publication and a patent.
 
   papers:
-    - title: Radial Time Segemntation User Interface
-      authors: Tom Hobbs, Sam Smith, Mark H.
+    - title: Radial Time Segmentation User Interface
+      authors: Tom Hobbs, Sam Smith, Mark Wooley
       conference: IBM, 2012
 
 skills:
