@@ -124,7 +124,7 @@ skills:
     - name: Jenkins & Travis
       level: 85%
 
-    - name: React Native
+    - name: Node
       level: 75%
 
     - name: Amazon Web Services
@@ -133,7 +133,7 @@ skills:
     - name: Jest
       level: 75%
 
-    - name: Node
+    - name: React Native
       level: 75%
 
     - name: Git
